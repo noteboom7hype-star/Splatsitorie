@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Splatsitorie</title>
+  <title>Login Fake Moderno</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,7 +99,7 @@
 </head>
 <body>
   <div class="login-box">
-    <h2>Splatsitorie</h2>
+    <h2>Login Fake</h2>
     <input type="text" id="username" placeholder="Usuário">
     <input type="password" id="password" placeholder="Senha">
     <button onclick="showModal()">Concluir</button>
@@ -117,7 +117,14 @@
   <script>
     function showModal() {
       // Lista de nomes inventados
-      const nomes = ["davixbixo32", "guilhermesxx", "joaopower99", "mariazinhaXP", "lucas_devPro"];
+      const nomes = [
+        "davixbixo32",
+        "guilhermesxx",
+        "joaopower99",
+        "mariazinhaXP",
+        "lucas_devPro",
+        "ezito"
+      ];
       // Escolhe um aleatório
       const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
       document.getElementById('errorMessage').innerText = 
